@@ -16,6 +16,6 @@ then run "java --module-path /path/to/javafx-sdk/lib --add-modules javafx.contro
 # Packaging into a .jar file
 run "jar --create --file runtime.jar --main-class runtime -C . ."
 it should create the file!
-to run the .jar do "java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.web -jar EaglercraftLauncher.jar"
+to run the .jar do "java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.web -jar runtime.jar"
 # You are done!
 
